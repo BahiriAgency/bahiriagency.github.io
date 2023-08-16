@@ -198,8 +198,8 @@ p {
 }
 /* End Header Section */
 
-/*Hero Section */
-#hero {
+/* Home Section */
+#home {
     background-image: url(./img/Bahiri\ Agency\ MV.jpg);
     background-size: contain;
     background-position: top center;
@@ -207,7 +207,7 @@ p {
     position: relative;
     z-index: 1;
 }
-/* End Hero Section */
+/* End Home Section */
 
 /* Services Section */
 #services .services {
@@ -405,18 +405,18 @@ filter: grayscale(0);
     h1.section-title {
         font-size: 6rem;
     }
-    /* Hero */
-    #hero {
+    /* Home */
+    #home {
         background-image: url(./img/Bahiri\ Agency\ DV.png);
         background-size: cover;
         background-position: top center;
         position: relative;
         z-index: 1;
     }
-    #hero h1 {
+    #home h1 {
         font-size: 7rem;
     }
-    /* End Hero */
+    /* End Home */
 
     /* Services Section */
     #services .service-bottom .service-item {
@@ -483,11 +483,11 @@ filter: grayscale(0);
     }
     /* End Header */
 
-    /* Hero */
-    #hero {
+    /* Home */
+    #home {
         background-position: center center;
     }
-    /* End Hero */
+    /* End Home */
 
     /* Services */
     #services .service-bottom .service-item {
