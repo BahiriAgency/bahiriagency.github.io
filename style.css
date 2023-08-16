@@ -200,9 +200,10 @@ p {
 
 /*Hero Section */
 #hero {
-    background-image: url(./img/Bahiri\ Agency\ 1.jpg);
-    background-size: cover;
+    background-image: url(./img/Bahiri\ Agency\ BI.jpg);
+    background-size: contain;
     background-position: top center;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 1;
 }
@@ -231,7 +232,7 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(./img/Bahiri\ Agency\ 1.jpg);
+    background-image: url(./img/Bahiri\ Agency\ DV.png);
     background-size: cover;
     background-position: center;
     margin: 10px 5%;
@@ -292,12 +293,12 @@ p {
 }
 #contact .contact-item {                              
     width: 80%;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 10px 10%;
+    text-align: center;
 }
 #contact .contact-item-container:hover {
     box-shadow: 0px 0px 5px 0 #000002;
@@ -406,7 +407,11 @@ filter: grayscale(0);
     }
     /* Hero */
     #hero {
-        background-position: center;
+        background-image: url(./img/Bahiri\ Agency\ DV.png);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
     }
     #hero h1 {
         font-size: 7rem;
@@ -449,9 +454,6 @@ filter: grayscale(0);
         justify-content: center;
         padding: 20px;
         margin: 0;
-    }
-    #contact .contact-item {
-        margin: 25px;
     }
     /* End Contact */
 }
