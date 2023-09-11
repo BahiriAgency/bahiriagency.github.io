@@ -198,16 +198,16 @@ p {
 }
 /* End Header Section */
 
-/*Hero Section */
-#hero {
-    background-image: url(./img/Bahiri\ Agency\ BI.jpg);
+/* Home Section */
+#home {
+    background-image: url(./img/Bahiri\ Agency\ MV.png);
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
 }
-/* End Hero Section */
+/* End Home Section */
 
 /* Services Section */
 #services .services {
@@ -313,7 +313,7 @@ p {
     font-weight: 600;
     margin-bottom: 5px;
 }
-#contact .contact-details {
+#contact .contact-info h2 {
     font-size: 1.9rem;
     font-weight: 500;
     line-height: 2rem;
@@ -405,18 +405,18 @@ filter: grayscale(0);
     h1.section-title {
         font-size: 6rem;
     }
-    /* Hero */
-    #hero {
+    /* Home */
+    #home {
         background-image: url(./img/Bahiri\ Agency\ DV.png);
         background-size: cover;
         background-position: top center;
         position: relative;
         z-index: 1;
     }
-    #hero h1 {
+    #home h1 {
         font-size: 7rem;
     }
-    /* End Hero */
+    /* End Home */
 
     /* Services Section */
     #services .service-bottom .service-item {
@@ -483,11 +483,11 @@ filter: grayscale(0);
     }
     /* End Header */
 
-    /* Hero */
-    #hero {
+    /* Home */
+    #home {
         background-position: center center;
     }
-    /* End Hero */
+    /* End Home */
 
     /* Services */
     #services .service-bottom .service-item {
